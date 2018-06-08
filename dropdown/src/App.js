@@ -50,7 +50,7 @@ class App extends Component {
       First:'Higher Education',
       poin:'D3 Diploma',
       Level2:'S1/D4 Bachelor',
-      Level3:'S2 Magister',
+      Level3:'S2 Master',
       Level4:'S3 Doctor',
     });   
   }
