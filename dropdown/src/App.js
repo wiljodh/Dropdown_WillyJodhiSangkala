@@ -13,7 +13,7 @@ class App extends Component {
     LevelStaged:'Choose Stage'
     };
   
-  pertama =() =>{     
+  One =() =>{     
     this.setState({
       LevelChoosed:'Pre-School Education' ,
       First:'Pre-School Education',
@@ -23,7 +23,7 @@ class App extends Component {
     });   
   }
 
-  kedua =() =>{     
+  Two =() =>{     
     this.setState({
       LevelChoosed:'Basic Education' ,
       First:'Basic Education',
@@ -34,7 +34,7 @@ class App extends Component {
     });   
   }
 
-  ketiga =() =>{     
+  Three =() =>{     
     this.setState({
       LevelChoosed:'Middle Education' ,
       First:'Middle Education',
@@ -44,7 +44,7 @@ class App extends Component {
     });   
   }
 
-  keempat =() =>{     
+  Four =() =>{     
     this.setState({
       LevelChoosed:'Higher Education' ,
       First:'Higher Education',
@@ -66,10 +66,10 @@ class App extends Component {
     <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"
      style={{width: "300px"}}>{this.state.LevelChoosed}</button>
     <div class="dropdown-menu">
-        <a className="dropdown-item" onClick= {this.pertama}>Pre-School Education</a>
-        <a className="dropdown-item" onClick= {this.kedua} >Basic Education</a>
-        <a className="dropdown-item" onClick= {this.ketiga} >Middle Education</a>
-        <a className="dropdown-item" onClick= {this.keempat} >Higher Education</a>
+        <a className="dropdown-item" onClick= {this.One}>Pre-School Education</a>
+        <a className="dropdown-item" onClick= {this.Two} >Basic Education</a>
+        <a className="dropdown-item" onClick= {this.Three} >Middle Education</a>
+        <a className="dropdown-item" onClick= {this.Four} >Higher Education</a>
     </div>
   </div>
   </div>
